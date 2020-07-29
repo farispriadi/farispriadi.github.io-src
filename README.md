@@ -1,5 +1,5 @@
-FP Notes
-##########
+eFPe Notes
+=====================================
 
 Blog for reminds myself.
 
@@ -25,7 +25,7 @@ Change into project directory::
 
 Create virtual enviironment
 	
-	virtualenv venv::
+	virtualenv venv
 
 Activate virtual environment::
 
