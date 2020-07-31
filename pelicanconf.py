@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Faris Priadi'
 SITENAME = 'eFPe Notes'
-SITEURL = ''
+SITEURL = 'https://farispriadi.github.io'
 
 PATH = 'content'
 
