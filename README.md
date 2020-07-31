@@ -34,3 +34,11 @@ Activate virtual environment
 Install requirements
 
     pip install -r requirements.txt
+
+
+Create Project
+--------------
+
+Create skeleton project using
+
+	pelican-quickstart

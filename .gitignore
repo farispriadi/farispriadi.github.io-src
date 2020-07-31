@@ -1,5 +1,10 @@
 # ignore folder virtualenv
 venv
 
+# ignore folder __pycache__
+__pycache__
+	
+
 # ignore .pyc
 .py
+
