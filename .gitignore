@@ -3,7 +3,10 @@ venv
 
 # ignore folder __pycache__
 __pycache__
-	
+
+
+# ignore output
+output
 
 # ignore .pyc
 .py
