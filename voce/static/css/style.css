@@ -17,7 +17,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0e94ec;
+  color: #800000;
   text-decoration: none;
 }
 
@@ -28,10 +28,10 @@ a:focus {
 }
 
 .single .entry-content a{
-    color: #0e94ec;
+    color: #800000;
 }
 .single .entry-content a:hover{
-    background: #0e94ec;
+    background: #800000;
     color: #fff;
 }
 
@@ -395,7 +395,7 @@ article.post .post-categories:after,
   height: 2px;
   width: 40px;
   margin-left: -20px;
-  background: #0e94ec;
+  background: #800000;
 }
 article.post .post-categories a, .post-inner-content .cat-item a{
   color: #696969;
@@ -548,14 +548,14 @@ article.post .post-categories a:hover,
 .flex-caption h2:hover,
 .comment-meta.commentmetadata a:hover,
 .post-inner-content .cat-item a:hover  {
-  color: #0e94ec;
+  color: #800000;
 }
 
 button, html input[type=button]:hover,
 input[type=reset]:hover,
 input[type=submit]:hover,
 .comment-form #submit:hover  {
-  background: #0e94ec;
+  background: #800000;
   color: #fff;
 }
 
@@ -649,7 +649,7 @@ letter-spacing: 1px;
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #0e94ec;
+  color: #800000;
   background-color: transparent;
 }
 .dropdown-menu > li > a:hover,
@@ -657,7 +657,7 @@ letter-spacing: 1px;
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #0e94ec;
+  background-color: #800000;
 }
 .navbar-collapse {
   float: left;
@@ -675,7 +675,7 @@ letter-spacing: 1px;
   .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
     color: #fff;
-    background-color: #0e94ec;
+    background-color: #800000;
   }
   .navbar-collapse {
     background: #ffffff;
@@ -697,7 +697,7 @@ letter-spacing: 1px;
   font-size: 13px;
 }
 .navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
-  color: #0e94ec;
+  color: #800000;
   background-color: transparent;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li.active > a {
@@ -728,7 +728,7 @@ letter-spacing: 1px;
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:hover,
 .dropdown-menu>.active>a:focus {
-  background-color: #0e94ec;
+  background-color: #800000;
   color: #fff;
 }
 .dropdown-menu .divider {
@@ -787,7 +787,7 @@ letter-spacing: 1px;
 }
 #image-navigation .nav-previous a:hover,
 #image-navigation .nav-next a:hover{
-  background-color: #0e94ec;
+  background-color: #800000;
   color: #fff;
 }
 #image-navigation .nav-previous,
@@ -856,7 +856,7 @@ letter-spacing: 1px;
   color: #777;
 }
 .site-info a:hover {
-  color: #0e94ec;
+  color: #800000;
 }
 .site-info {
   color: #999;
@@ -886,7 +886,7 @@ letter-spacing: 1px;
           transition: background-color 0.3s linear;
 }
 .scroll-to-top:hover {
-  background: #0e94ec;
+  background: #800000;
   opacity: .8;
 }
 
@@ -932,7 +932,7 @@ letter-spacing: 1px;
   padding-left: 10px;
   overflow-x: auto;
   border: 1px solid #c7c7c7;
-  border-left: 3px solid #0e94ec;
+  border-left: 3px solid #800000;
   background: #f6f6f6;
 }
 .entry-content table.highlighttable {
@@ -951,7 +951,7 @@ letter-spacing: 1px;
   width: 30px;
   overflow: hidden;
   text-align: right;
-  border-left: 3px solid #0e94ec;
+  border-left: 3px solid #800000;
   border-right: 1px solid #c7c7c7;
   /*background: #dddddd;*/
   vertical-align: top;
@@ -970,7 +970,7 @@ letter-spacing: 1px;
   background-color: #f6f6f6;
 }
 .entry-content div.admonition.update, .entry-content div.admonition.hint, .entry-content div.admonition.important, .entry-content div.admonition.note, .entry-content div.admonition.tip {
-  border-left-color: #0e94ec;
+  border-left-color: #800000;
 }
 .entry-content div.admonition.warning, .entry-content div.admonition.attention, .entry-content div.admonition.caution, .entry-content div.admonition.danger {
   border-left-color: red;
@@ -996,11 +996,11 @@ time{
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #0e94ec;
+  color: #800000;
 }
 
 .active{
-  color: #0e94ec !important;
+  color: #800000 !important;
 }
 
 .social{

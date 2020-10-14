@@ -5,7 +5,7 @@ import os
 AUTHOR = 'farispriadi'
 SITENAME = 'iwakali.id'
 SITEURL = ''
-USER_LOGO_URL = 'http://i.imgur.com/zzCRZUH.jpg'
+USER_LOGO_URL = 'iwakali_logo.png'
 INDEX_TITLE = 'iwakali.id'
 INDEX_DESC = 'Fish with free will'
 
@@ -22,12 +22,18 @@ PLUGIN_PATHS = ["plugins", os.path.join(THEME, "plugins")]
 
 LOAD_CONTENT_CACHE = False
 SLUGIFY_SOURCE = 'basename'
+STATIC_PATHS = [
+    'images',
+    'files'
+]
 
-
-# EXTRA_PATH_METADATA = {
-#     'files/favicon.ico': {'path': 'favicon.ico'},
-#     # 'files/robots.txt': {'path': 'robots.txt'},
-# }
+EXTRA_PATH_METADATA = {
+    'images/iwakali_logo.png': {'path': 'iwakali_logo.png'},
+    'files/favicon-16x16.png': {'path': 'favicon-16x16.png'},
+    'files/favicon-32x32.png': {'path': 'favicon-32x32.png'},
+    'files/favicon-96x96.png': {'path': 'favicon-96x96.png'},
+    # 'files/robots.txt': {'path': 'robots.txt'},
+}
 
 #Theme specific
 # GOOGLE_ANALYTICS_ID = "UA-123456-7"
@@ -38,7 +44,7 @@ SLUGIFY_SOURCE = 'basename'
 
 
 SOCIAL = (
-    ("Feed", "https://siteurl.com/feeds/all.atom.xml"),
+    ("Feed", "https://farispriadi.github.io/feeds/all.atom.xml"),
     ("GitHub", "https://github.com/farispriadi"),
 )
 
