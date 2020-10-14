@@ -1,17 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
+from __future__ import unicode_literals
+from datetime import date
+import time
 import os
 
-AUTHOR = 'farispriadi'
-SITENAME = 'iwakali.id'
-SITEURL = ''
+AUTHOR = 'Author Name'
+SITENAME = 'Sitename'
+SITEURL = 'https://siteurl.com'
 USER_LOGO_URL = 'http://i.imgur.com/zzCRZUH.jpg'
-INDEX_TITLE = 'iwakali.id'
-INDEX_DESC = 'Fish with free will'
+INDEX_TITLE = 'Site Title'
+INDEX_DESC = 'Description of Site'
 
-PATH = 'content'
-
-TIMEZONE = 'Asia/Jakarta'
+TIMEZONE = 'Asia/Singapore'
 
 DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
@@ -24,22 +26,22 @@ LOAD_CONTENT_CACHE = False
 SLUGIFY_SOURCE = 'basename'
 
 
-# EXTRA_PATH_METADATA = {
-#     'files/favicon.ico': {'path': 'favicon.ico'},
-#     # 'files/robots.txt': {'path': 'robots.txt'},
-# }
+EXTRA_PATH_METADATA = {
+    'files/favicon.ico': {'path': 'favicon.ico'},
+    'files/robots.txt': {'path': 'robots.txt'},
+}
 
 #Theme specific
-# GOOGLE_ANALYTICS_ID = "UA-123456-7"
-# GOOGLE_ANALYTICS_PROP = "siteurl.com"
-# TAGLINE = "Site Tagline"
-# MANGLE_EMAILS = False
-# GLOBAL_KEYWORDS = ("keywords",)
+GOOGLE_ANALYTICS_ID = "UA-123456-7"
+GOOGLE_ANALYTICS_PROP = "siteurl.com"
+TAGLINE = "Site Tagline"
+MANGLE_EMAILS = False
+GLOBAL_KEYWORDS = ("keywords",)
 
 
 SOCIAL = (
     ("Feed", "https://siteurl.com/feeds/all.atom.xml"),
-    ("GitHub", "https://github.com/farispriadi"),
+    ("GitHub", "https://github.com/username"),
 )
 
 LINKS = (
