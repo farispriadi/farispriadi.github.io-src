@@ -1,6 +1,6 @@
-Title: My First Post
+Title: My Third Post
 Date: 2020-10-14 10:37
-Category: Test
+Category: Python
 Tags: Koding
 
 This is first post for voce theme.

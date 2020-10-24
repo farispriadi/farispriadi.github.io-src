@@ -28,7 +28,10 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
-    'images/iwakali_logo.png': {'path': 'iwakali_logo.png'},
+    'images/iwakali_logo.png': {'path': 'iwakali_logo.png'}, 
+    'images/tag/iwakali_logo.png': {'path': 'tag/iwakali_logo.png'}, 
+    'images/articles/iwakali_logo.png': {'path': 'articles/iwakali_logo.png'}, 
+    'images/pages/iwakali_logo.png': {'path': 'pages/iwakali_logo.png'}, 
     'files/favicon-16x16.png': {'path': 'favicon-16x16.png'},
     'files/favicon-32x32.png': {'path': 'favicon-32x32.png'},
     'files/favicon-96x96.png': {'path': 'favicon-96x96.png'},
@@ -49,8 +52,8 @@ SOCIAL = (
 )
 
 LINKS = (
-    ("Index", "/index.html"),
-	("About me", "/pages/about-me.html"),
+    ("Iwakali.id", "/index.html"),
+	("Tentang", "/pages/about.html"),
 )
 
 DEFAULT_PAGINATION = 8
